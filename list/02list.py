@@ -4,6 +4,6 @@ number2 = number.copy()
 number2.reverse()
 
 if number == number2:
-    print("This is a palindrome number")
+    print("This is a palindrome value")
 else:
-    print("Not a palindrome number")
+    print("Not a palindrome value")
