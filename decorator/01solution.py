@@ -1,12 +1,12 @@
 def greet(fx):
     def inner():
-        print("jai hanuman ji :")
+        print("Program start :")
         fx()
-        print("by by....")
+        print("Program End ? ")
     return inner
 
 @greet
 def hello():
-    print("jai baba ki")
+    print("hello  byy....")
 
 hello()
