@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
-
-DATA_FILE = "E:\\python\\BankingSystem\\bank_data.json"#place enter your file path
+# Path of JSON file where all bank data will be stored
+DATA_FILE = "E:\\python\\BankingSystem\\bank_data.json"# Enter your correct file path
 
 
 def load_data():
